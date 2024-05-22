@@ -1,0 +1,19 @@
+{
+  "name": "deploy",
+  "license": "UNLICENSED",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "type": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^16",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.9.0",
+    "@pulumi/awsx": "2.5.0",
+    "@pulumi/pulumi": "^3.109.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
