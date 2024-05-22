@@ -1,4 +1,4 @@
-### How to reproduce
+### Steps to reproduce
 
 ```bash
 yarn
