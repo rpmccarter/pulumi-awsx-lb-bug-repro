@@ -1,4 +1,4 @@
-name: pulumi2
+name: awsx-lb-bug-repro
 runtime: nodejs
 description: A minimal TypeScript Pulumi program
 config:
